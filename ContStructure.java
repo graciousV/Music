@@ -1,5 +1,6 @@
 public class ConStructure{
     public static void main (string[]args){
+        Scanner input = new Scanner(System.in);
 
         //input marks for assignments and CATS
         System.out.print("Enter marks for assignment 1: ");
@@ -23,7 +24,7 @@ public class ConStructure{
         }
 
         //print the grades
-        if(average >=40 $$ average <= 50){
+        if(average >=40 && average <= 50){
             System.out.println("grade A");
         }
         else if(average >=30 && average <=39){
